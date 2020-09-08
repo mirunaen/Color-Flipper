@@ -2,7 +2,6 @@
 
 function ageInDays() {
   var birthYear = prompt("Enter birthYear");
-  var dt = new Date();
-  var year = document.write(dt.getFullYear());
-  return (birthYear - year) * 360;
+  var result = (2020 - birthYear) * 365;
+  console.log(result);
 }
