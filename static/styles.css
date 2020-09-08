@@ -1,3 +1,7 @@
+.container-1 {
+  border: 1px solid black;
+}
+
 .flex-box-container-1 {
   display: flex;
   border: 1px solid black;
@@ -10,4 +14,5 @@
   display: flex;
   padding: 10px;
   border: 1px solid black;
+  align-items: center;
 }
